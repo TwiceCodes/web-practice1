@@ -9,22 +9,28 @@ li {
   padding: 0;
 }
 
-/* Body styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Header styles */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  background-color: #55b95a; /* Green header background */
+  color: #fff; /* White text color */
+  padding: 20px 0;
 }
 
 header h1 {
-  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -36,9 +42,8 @@ nav ul li {
   margin-right: 20px;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+.navs li a:hover {
+  color: #f0f0f0; /* Lighter text color on hover */
 }
 
 /* Main Content styles */
@@ -46,39 +51,20 @@ main {
   padding: 20px;
 }
 
-/* Banner Section styles */
-#banner {
-  text-align: center;
-  padding: 50px 0;
-  background-color: #ccc;
-}
-
-#banner h2 {
-  margin-bottom: 20px;
-}
-
-/* About Us Section styles */
-#about {
-  margin-top: 50px;
-}
-
-/* Attractions Section styles */
-#attractions {
-  margin-top: 50px;
-}
-
-/* Accommodation Section styles */
-#accommodation {
-  margin-top: 50px;
-}
-
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #55b95a; /* Green footer background */
+  color: #fff; /* White text color */
+  padding: 20px 0;
   text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+footer p a:hover {
+  color: #f0f0f0; /* Lighter text color on hover */
 }
