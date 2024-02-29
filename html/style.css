@@ -11,8 +11,8 @@ li {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f8f8; /* Light gray background */
-  color: white; /* Dark gray text color */
+  background-color: #0e0f0e;
+  color: white;
 }
 
 .container {
@@ -63,8 +63,8 @@ nav ul li a {
 /* Main Content styles */
 .Events {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 10px auto 0;
+  padding-top: 5%;
 }
 
 /* Footer styles */
@@ -74,14 +74,21 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
 h2 {
-  color: #000000;
+  color: white;
+  text-align: center; /* Center the h2 text */
+  margin-bottom: 20px; /* Add some space below the h2 */
+  display: block;
+  padding: 20px;
 }
-/* image slider */
+
+/* Image slider styles */
 main {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #0e0f0e;
+  padding: 20px;
 }
 
 .slider {
@@ -90,16 +97,17 @@ main {
   overflow: hidden;
 }
 
-.slides {
-  display: flex;
-}
-
 .slide {
   flex: 0 0 100%;
-  display: none;
+  /* Display the slides */
+  display: block;
 }
 
 .slide img {
   width: 100%;
   height: auto;
+}
+
+.Attractions {
+  padding: 0%;
 }
